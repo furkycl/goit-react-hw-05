@@ -6,7 +6,7 @@ const AUTH_TOKEN =
 
 const options = {
   headers: {
-    Authorization: AUTH_TOKEN,
+    Authorization: `Bearer ${AUTH_TOKEN}`,
   },
 };
 

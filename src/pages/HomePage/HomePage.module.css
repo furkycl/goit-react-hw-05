@@ -1,0 +1,13 @@
+.page {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
