@@ -21,7 +21,8 @@ function MoviesPage() {
         setMovies(results);
         setError(null);
       } catch (err) {
-        setError("Arama başarısız oldu.");
+        console.error("Arama Başarısız oldu.", err);
+        setError("Arama Başarısız oldu.");
         setMovies([]);
       } finally {
         setLoading(false);
