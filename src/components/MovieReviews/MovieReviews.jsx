@@ -17,6 +17,7 @@ function MovieReviews() {
         setReviews(data);
         setError(null);
       } catch (err) {
+        console.error("İncelemeler yüklenemedi:", err);
         setError("İncelemeler yüklenemedi.");
       } finally {
         setLoading(false);

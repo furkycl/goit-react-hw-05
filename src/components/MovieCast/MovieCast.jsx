@@ -17,6 +17,7 @@ function MovieCast() {
         setCast(data);
         setError(null);
       } catch (err) {
+        console.error("Oyuncular yüklenemedi:", err);
         setError("Oyuncular yüklenemedi.");
       } finally {
         setLoading(false);
